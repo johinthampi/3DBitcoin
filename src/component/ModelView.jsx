@@ -48,7 +48,7 @@ function ModelView() {
 </Suspense>
 
       {/* Controls */}
-      <OrbitControls enableZoom={false}/>
+      <OrbitControls enableZoom={false}  enablePan={false} enableRotate={false}/>
       </Canvas>
   );
 }
